@@ -19,8 +19,8 @@ layers:
   - D
   - F
   - G
-  - {t: H, s: BACKSPACE}
-  - {t: J, s: ENTER}
+  - H
+  - J
   - K
   - L
   - ;
@@ -43,7 +43,7 @@ layers:
   - SPACE
   - Left SPACE
   - Right SPACE
-  - SPACE
+  - {t: KP ENTER, h: '&lt 6'}
   - RALT
   - RWIN
   - OUT TOG
