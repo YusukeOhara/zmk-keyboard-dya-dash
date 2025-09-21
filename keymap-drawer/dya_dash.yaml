@@ -23,8 +23,8 @@ layers:
   - J
   - K
   - L
-  - ;
-  - ''''
+  - /
+  - ENTER
   - LSHIFT
   - Z
   - X
@@ -36,11 +36,11 @@ layers:
   - M
   - ','
   - .
-  - /
+  - RIGHT SHIFT
   - LCTRL
   - LWIN
   - LALT
-  - SPACE
+  - '`'
   - SPACE
   - {t: BACKSPACE, h: Right SPACE}
   - {t: ENTER, h: Right SPACE}
