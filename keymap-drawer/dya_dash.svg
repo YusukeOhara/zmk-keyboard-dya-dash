@@ -250,7 +250,9 @@ path.combo {
 <g transform="translate(504, 140)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">B</text>
-</g>
+<a href="#Config-Layer">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 67%">Config Layer</tspan></text>
+</a></g>
 <g transform="translate(560, 140)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">N</text>
@@ -1958,8 +1960,8 @@ path.combo {
 <tspan x="0" dy="-0.6em">LED</tspan><tspan x="0" dy="1.2em">Layer</tspan>
 </text>
 </g>
-<g transform="translate(504, 140)" class="key keypos-30">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<g transform="translate(504, 140)" class="key held keypos-30">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(560, 140)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
