@@ -128,12 +128,12 @@
             // | touch1  | touch2  | touch3  | touch 4 |                                   | touch1  | touch2  | touch3  | touch 4 |
 
             bindings = <
-&kp ESCAPE        &kp Q         &kp W     &kp E     &kp R      &kp T      &kp Y            &kp U             &kp I     &kp O      &kp P      &kp DELETE
-&kp TAB           &kp A         &kp S     &kp D     &kp F      &kp G      &kp H            &kp J             &kp K     &kp L      &kp SLASH  &kp ENTER
-&kp LSHIFT        &kp Z         &kp X     &kp C     &kp V      &kp B      &lt 7 B          &kp N             &kp M     &kp COMMA  &kp DOT    &kp RIGHT_SHIFT
-                  &kp LCTRL     &kp LWIN  &kp LALT  &kp GRAVE  &kp SPACE  &lt 6 BACKSPACE  &lt 5 ENTER       &kp RALT  &kp RWIN
-&out OUT_TOG      &out_bt_nxt                                             &kp UP           &kp LEFT          &kp DOWN  &kp RIGHT
-&mo TRACKBALL_L2  &mo SCROLL_L  &none     &none                           &mo SCROLL_L     &mo TRACKBALL_L2  &none     &none
+&kp ESCAPE        &kp Q         &kp W     &kp E     &kp R                      &kp T        &kp Y            &kp U             &kp I     &kp O      &kp P          &kp MINUS
+&kp TAB           &kp A         &kp S     &kp D     &kp F                      &kp G        &kp H            &kp J             &kp K     &kp L      &kp SEMICOLON  &kp COLON
+&kp LSHIFT        &kp Z         &kp X     &kp C     &kp V                      &kp B        &lt 7 B          &kp N             &kp M     &kp COMMA  &kp DOT        &kp SLASH
+                  &kp LCTRL     &kp LWIN  &kp LALT  &lt 6 LANG_ZENKAKUHANKAKU  &lt 5 SPACE  &lt 6 BACKSPACE  &lt 5 ENTER       &kp RALT  &kp RWIN
+&out OUT_TOG      &out_bt_nxt                                                               &kp UP           &kp LEFT          &kp DOWN  &kp RIGHT
+&mo TRACKBALL_L2  &mo SCROLL_L  &none     &none                                             &mo SCROLL_L     &mo TRACKBALL_L2  &none     &none
             >;
         };
 
@@ -195,24 +195,24 @@
             //           |     |     |          |     |          |                           |     |         |         |     |
 
             bindings = <
-&kp ESC  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp RBKT
-&trans   &kp N1    &kp N2  &kp N3    &kp N4    &kp N5     &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &kp BACKSLASH
-&trans   &trans    &trans  &trans    &trans    &trans     &kp GRAVE  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp RSHIFT
-         &trans    &trans  &trans    &trans    &trans     &trans     &trans     &trans     &trans
-&trans   &trans                                           &trans     &trans     &trans     &trans
-&trans   &trans    &trans  &trans                         &trans     &trans     &trans     &trans
+&kp ESC  &kp EXCL  &kp AT  &kp HASH  &kp DLLR   &kp PRCNT          &kp CARET   &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp RBKT
+&trans   &kp N1    &kp N2  &kp N3    &kp N4     &kp N5             &kp N6      &kp N7     &kp N8     &kp N9    &kp N0    &kp BACKSLASH
+&trans   &trans    &trans  &trans    &trans     &trans             &kp GRAVE   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp RSHIFT
+         &trans    &trans  &trans    &kp LANG6  &kp LANG_HIRAGANA  &kp DELETE  &trans     &trans     &trans
+&trans   &trans                                                    &trans      &trans     &trans     &trans
+&trans   &trans    &trans  &trans                                  &trans      &trans     &trans     &trans
             >;
         };
 
         right_layer {
             display-name = "Right SPACE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans      &kp PG_UP     &kp UP        &kp PG_DN  &trans  &kp C_AL_LOCK
-&trans  &trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT      &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &trans     &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans      &trans        &trans        &trans
-&trans  &trans                                  &trans      &trans        &trans        &trans
-&trans  &trans  &trans  &trans                  &none       &none         &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans             &kp PG_UP     &kp UP        &kp PG_DN  &trans  &kp C_AL_LOCK
+&trans  &trans  &trans  &trans  &trans  &trans  &trans             &kp LEFT      &kp DOWN      &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE         &kp C_VOL_DN  &kp C_VOL_UP  &trans     &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &kp LANG_HIRAGANA  &trans        &trans        &trans
+&trans  &trans                                  &trans             &trans        &trans        &trans
+&trans  &trans  &trans  &trans                  &none              &none         &trans        &trans
             >;
         };
 
