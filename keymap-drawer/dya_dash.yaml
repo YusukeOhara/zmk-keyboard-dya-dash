@@ -42,8 +42,8 @@ layers:
   - LALT
   - '`'
   - SPACE
-  - {t: BACKSPACE, h: Left SPACE}
-  - {t: ENTER, h: Right SPACE}
+  - {t: BACKSPACE, h: Right SPACE}
+  - {t: ENTER, h: Left SPACE}
   - RALT
   - RWIN
   - OUT TOG
@@ -342,8 +342,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -402,8 +402,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
