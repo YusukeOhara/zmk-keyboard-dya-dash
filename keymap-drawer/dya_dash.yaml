@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - DELETE
+  - '-'
   - TAB
   - A
   - S
@@ -23,8 +23,8 @@ layers:
   - J
   - K
   - L
-  - /
-  - ENTER
+  - ;
+  - ':'
   - LSHIFT
   - Z
   - X
@@ -36,12 +36,12 @@ layers:
   - M
   - ','
   - .
-  - RIGHT SHIFT
+  - /
   - LCTRL
   - LWIN
   - LALT
-  - '`'
-  - SPACE
+  - {t: LANG ZENKAKUHANKAKU, h: Right SPACE}
+  - {t: SPACE, h: Left SPACE}
   - {t: BACKSPACE, h: Right SPACE}
   - {t: ENTER, h: Left SPACE}
   - RALT
@@ -340,10 +340,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - LANG6
+  - {t: LANG HIRAGANA, type: held}
+  - DELETE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -400,9 +400,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - LANG HIRAGANA
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
