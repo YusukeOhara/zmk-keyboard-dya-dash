@@ -130,7 +130,7 @@
             bindings = <
 &kp ESCAPE        &kp Q         &kp W     &kp E     &kp R                      &kp T        &kp Y            &kp U             &kp I     &kp O      &kp P          &kp MINUS
 &kp TAB           &kp A         &kp S     &kp D     &kp F                      &kp G        &kp H            &kp J             &kp K     &kp L      &kp SEMICOLON  &kp COLON
-&kp LSHIFT        &kp Z         &kp X     &kp C     &kp V                      &kp B        &lt 7 B          &kp N             &kp M     &kp COMMA  &kp DOT        &kp SLASH
+&kp LSHIFT        &kp Z         &kp X     &kp C     &kp V                      &kp B        &kp LS(F10)      &kp N             &kp M     &kp COMMA  &kp DOT        &kp SLASH
                   &kp LCTRL     &kp LWIN  &kp LALT  &lt 6 LANG_ZENKAKUHANKAKU  &lt 5 SPACE  &lt 6 BACKSPACE  &lt 5 ENTER       &kp RALT  &kp RWIN
 &out OUT_TOG      &out_bt_nxt                                                               &kp UP           &kp LEFT          &kp DOWN  &kp RIGHT
 &mo TRACKBALL_L2  &mo SCROLL_L  &none     &none                                             &mo SCROLL_L     &mo TRACKBALL_L2  &none     &none
@@ -207,9 +207,9 @@
         right_layer {
             display-name = "Right SPACE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans             &kp PG_UP     &kp UP        &kp PG_DN  &trans  &kp C_AL_LOCK
-&trans  &trans  &trans  &trans  &trans  &trans  &trans             &kp LEFT      &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE         &kp C_VOL_DN  &kp C_VOL_UP  &trans     &trans  &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7             &kp F8        &kp UP        &kp PG_DN  &kp PAGE_UP    &kp C_AL_LOCK
+&trans  &trans  &trans  &trans  &trans  &trans  &trans             &kp LEFT      &kp DOWN      &kp RIGHT  &kp PAGE_DOWN  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE         &kp C_VOL_DN  &kp C_VOL_UP  &trans     &trans         &trans
         &trans  &trans  &trans  &trans  &trans  &kp LANG_HIRAGANA  &trans        &trans        &trans
 &trans  &trans                                  &trans             &trans        &trans        &trans
 &trans  &trans  &trans  &trans                  &none              &none         &trans        &trans
@@ -232,8 +232,8 @@
             display-name = "Trackball Automouse";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans        &trans    &trans     &trans     &trans     &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans        &trans    &mkp LCLK  &mkp RCLK  &mkp RCLK  &mo SCROLL_L  &kp RALT
-&trans  &trans  &trans  &trans  &trans  &trans        &trans    &mkp MCLK  &mkp LCLK  &trans     &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans        &trans    &mkp LCLK  &mkp RCLK  &mkp MCLK  &mo SCROLL_L  &kp RALT
+&trans  &trans  &trans  &trans  &trans  &trans        &trans    &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans        &trans
         &trans  &trans  &trans  &trans  &mo SCROLL_L  &mkp MB4  &mkp MB5   &trans     &trans
 &trans  &trans                                        &trans    &trans     &trans     &trans
 &trans  &trans  &trans  &trans                        &trans    &trans     &trans     &trans
@@ -244,8 +244,8 @@
             display-name = "Trackball Manual";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans        &trans    &trans     &trans     &trans     &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans        &trans    &mkp LCLK  &mkp RCLK  &mkp RCLK  &mo SCROLL_L  &kp RALT
-&trans  &trans  &trans  &trans  &trans  &trans        &trans    &mkp MCLK  &mkp LCLK  &trans     &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans        &trans    &mkp LCLK  &mkp RCLK  &mkp MCLK  &mo SCROLL_L  &kp RALT
+&trans  &trans  &trans  &trans  &trans  &trans        &trans    &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans        &trans
         &trans  &trans  &trans  &trans  &mo SCROLL_L  &mkp MB4  &mkp MB5   &trans     &trans
 &trans  &trans                                        &trans    &trans     &trans     &trans
 &trans  &trans  &trans  &trans                        &trans    &trans     &trans     &trans
@@ -255,9 +255,9 @@
         scroll_layer {
             display-name = "Trackball Scroll";
             bindings = <
-&trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans
-&trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans
-&trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans
+&trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans     &trans
+&trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &kt RCTRL  &trans
+&trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans     &trans
            &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans
 &trans     &trans                                  &trans  &trans     &trans  &trans
 &kp LCTRL  &trans  &trans  &trans                  &trans  &kp RCTRL  &trans  &trans
