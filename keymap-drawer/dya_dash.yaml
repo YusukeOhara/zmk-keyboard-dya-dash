@@ -42,7 +42,7 @@ layers:
   - LALT
   - '`'
   - SPACE
-  - {t: BACKSPACE, h: Right SPACE}
+  - {t: BACKSPACE, h: Left SPACE}
   - {t: ENTER, h: Right SPACE}
   - RALT
   - RWIN
@@ -341,8 +341,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -402,8 +402,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -658,12 +658,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LCTRL
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
