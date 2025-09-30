@@ -40,7 +40,7 @@ layers:
   - LCTRL
   - LWIN
   - LALT
-  - {t: '`', h: Right SPACE}
+  - {t: INTERNATIONAL 5, h: Right SPACE}
   - {t: SPACE, h: Left SPACE}
   - {t: BACKSPACE, h: Right SPACE}
   - {t: ENTER, h: Left SPACE}
@@ -509,7 +509,7 @@ layers:
   - '&mkp LCLK'
   - '&mkp RCLK'
   - '&mkp MCLK'
-  - {t: ▽, type: trans}
+  - Trackball Scroll
   - RALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -579,9 +579,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp LCLK'
+  - '&mkp LCLK'
   - '&mkp RCLK'
   - '&mkp MCLK'
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
