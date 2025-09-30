@@ -40,7 +40,7 @@ layers:
   - LCTRL
   - LWIN
   - LALT
-  - {t: LANG ZENKAKUHANKAKU, h: Right SPACE}
+  - {t: '`', h: Right SPACE}
   - {t: SPACE, h: Left SPACE}
   - {t: BACKSPACE, h: Right SPACE}
   - {t: ENTER, h: Left SPACE}
@@ -340,8 +340,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LANG6
-  - {t: LANG HIRAGANA, type: held}
+  - LANGUAGE 1
+  - {t: LANG2, type: held}
   - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -402,7 +402,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - LANG HIRAGANA
+  - LANG5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -506,10 +506,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - '&mkp RCLK'
-  - '&mkp MCLK'
-  - Trackball Scroll
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - RALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
