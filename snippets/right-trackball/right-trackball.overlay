@@ -45,5 +45,4 @@
     // disable force-awake
     // force-awake;
     disable-burst-read;
-    scroll-invert-y;
 };
