@@ -1529,12 +1529,14 @@ path.combo {
 <g transform="translate(286, 230) rotate(10.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">LANGUAGE</tspan><tspan x="0" dy="1.2em">1</tspan>
+<tspan x="0" dy="-0.6em">INT</tspan><tspan x="0" dy="1.2em">MUHENKAN</tspan>
 </text>
 </g>
 <g transform="translate(344, 246) rotate(20.0)" class="key held keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<text x="0" y="0" class="key held tap">LANG2</text>
+<text x="0" y="0" class="key held tap">
+<tspan x="0" dy="-0.6em">INT</tspan><tspan x="0" dy="1.2em">HENKAN</tspan>
+</text>
 </g>
 <g transform="translate(482, 246) rotate(-20.0)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

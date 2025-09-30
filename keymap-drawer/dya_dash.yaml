@@ -340,8 +340,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LANGUAGE 1
-  - {t: LANG2, type: held}
+  - INT MUHENKAN
+  - {t: INT HENKAN, type: held}
   - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
