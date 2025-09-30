@@ -6,7 +6,7 @@ layers:
   - W
   - E
   - R
-  - T
+  - {t: T, h: Config Layer}
   - Y
   - U
   - I
@@ -420,13 +420,72 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Config Layer: ['&bootloader', '', '', '', '', 'LED
+  Config Layer:
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: 'LED
 
-      Battery', '', '', '', '', '', '&bootloader', '&sys_reset', '', '', '', '', 'LED
+      Battery', type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - '&sys_reset'
+  - ''
+  - ''
+  - ''
+  - ''
+  - 'LED
 
-      BLE', '', '', '', '', '', '&sys_reset', '&studio_unlock', '', '', '', '', 'LED
+    BLE'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&sys_reset'
+  - '&studio_unlock'
+  - ''
+  - ''
+  - ''
+  - ''
+  - 'LED
 
-      Layer', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '&dfnxt', BT CLR, '', '', '', '', '', '', '', '', '', '', '', '']
+    Layer'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&dfnxt'
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   Trackball Automouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
