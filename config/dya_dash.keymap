@@ -232,7 +232,7 @@
             display-name = "Trackball Automouse";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans     &trans     &kp RALT
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans     &kp RALT
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &mkp LCLK  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans
         &trans  &trans  &trans  &trans  &mo 10  &mkp MB4  &mkp MB5   &trans     &trans
 &trans  &trans                                  &trans    &trans     &trans     &trans
