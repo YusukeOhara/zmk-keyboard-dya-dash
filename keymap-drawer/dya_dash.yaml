@@ -336,7 +336,7 @@ layers:
   - INT YEN
   - ']'
   - \
-  - '#'
+  - Sft+0x87
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
