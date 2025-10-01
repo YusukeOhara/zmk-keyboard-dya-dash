@@ -27,6 +27,7 @@
 #define EXT1_L 11
 #define EXT2_L 12
 #define EXT3_L 13
+#define JP_UNDERSCORE   LS(0x87)          // _
 
 &trackball_listener {
     input-processors = <
@@ -198,7 +199,7 @@
             bindings = <
 &kp ESC          &kp EXCL  &kp AT  &kp HASH  &kp DLLR          &kp PRCNT       &kp CARET   &kp AMPS        &kp ASTRK    &kp LPAR           &kp RS(EQUAL)  &kp EQUAL
 &kp NON_US_BSLH  &kp N1    &kp N2  &kp N3    &kp N4            &kp N5          &kp N6      &kp N7          &kp N8       &kp N9             &kp N0         &kp LEFT_BRACKET
-&trans           &trans    &trans  &trans    &trans            &trans          &kp GRAVE   &kp UNDERSCORE  &kp INT_YEN  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp NON_US_HASH
+&trans           &trans    &trans  &trans    &trans            &trans          &kp GRAVE   &kp UNDERSCORE  &kp INT_YEN  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp JP_UNDERSCORE
                  &trans    &trans  &trans    &kp INT_MUHENKAN  &kp INT_HENKAN  &kp DELETE  &trans          &trans       &trans
 &trans           &trans                                                        &trans      &trans          &trans       &trans
 &trans           &trans    &trans  &trans                                      &trans      &trans          &trans       &trans
