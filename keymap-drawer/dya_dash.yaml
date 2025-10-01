@@ -313,7 +313,7 @@ layers:
   - (
   - Sft+=
   - '='
-  - {t: ▽, type: trans}
+  - '|'
   - '1'
   - '2'
   - '3'
@@ -336,7 +336,7 @@ layers:
   - INT YEN
   - ']'
   - \
-  - \
+  - '#'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
