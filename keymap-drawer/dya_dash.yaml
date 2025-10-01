@@ -335,7 +335,7 @@ layers:
   - _
   - INT YEN
   - ']'
-  - /
+  - \
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
