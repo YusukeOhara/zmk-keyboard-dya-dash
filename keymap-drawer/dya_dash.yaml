@@ -313,7 +313,7 @@ layers:
   - (
   - Sft+=
   - '='
-  - '|'
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -331,7 +331,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '`'
+  - {t: ▽, type: trans}
   - _
   - INT YEN
   - ']'
@@ -375,10 +375,10 @@ layers:
   - AL LOCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F9
+  - F10
+  - F11
+  - F12
   - {t: ▽, type: trans}
   - ←
   - ↓
@@ -518,7 +518,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp LCLK'
+  - {t: ▽, type: trans}
   - '&mkp LCLK'
   - '&mkp RCLK'
   - '&mkp MCLK'
@@ -629,7 +629,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: RCTRL, h: toggle}
+  - RCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
