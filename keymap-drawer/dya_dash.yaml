@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - ;
-  - ':'
+  - ''''
   - LSHIFT
   - Z
   - X
@@ -311,8 +311,8 @@ layers:
   - '&'
   - '*'
   - (
-  - )
-  - ']'
+  - Sft+=
+  - '='
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -324,7 +324,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - \
+  - '['
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -332,11 +332,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '`'
-  - '-'
-  - '='
-  - '['
+  - _
+  - INT YEN
   - ']'
-  - RSHIFT
+  - /
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
